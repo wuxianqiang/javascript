@@ -20,7 +20,7 @@
 |对象==对象|两个对象之间也是不相等的|
 |对象==字符串|对象调用`toString()`就可以比较了|
 
-有三个方法可以把非数值转换为数值，那就是`parseInt()`,`parseFloat()`,`Number()`
+有三个方法可以把非数值转换为数值，那就是`parseInt()`,`parseFloat()`,`Number()`,如果传入的对象，默认会调用toString()转换，时间对象有一点区别。
 
 |方法名称|空字符串|null|undefined|NaN|true|false|数组里只有一项|普通对象|
 |-|-|-|-|-|-|-|-|-|
