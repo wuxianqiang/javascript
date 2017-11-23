@@ -25,5 +25,5 @@
 |方法名称|空字符串|null|undefined|NaN|true|false|数组里只有一项|普通对象|
 |-|-|-|-|-|-|-|-|-|
 |Number()|0|0|NaN|NaN|1|0|数组的那项一项|NaN|
-|parseInt()|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|
-|parseFloat()|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|
+|parseInt()|NaN|NaN|NaN|NaN|NaN|NaN|数组的那项一项|NaN|
+|parseFloat()|NaN|NaN|NaN|NaN|NaN|NaN|数组的那项一项|NaN|
